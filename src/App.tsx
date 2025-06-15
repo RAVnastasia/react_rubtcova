@@ -9,6 +9,7 @@ import AboutSection from './components/Section/AboutSection';
 import ServicesSection from './components/Section/ServicesSection';
 import PortfolioSection from './components/Section/PortfolioSection';
 import MentorcitySection from './components/Section/MentorcitySection';
+import TestimonialsSection from './components/Section/TestimonialsSection';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
       <ServicesSection />
       <PortfolioSection />
       <MentorcitySection />
+      <TestimonialsSection />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
