@@ -1,1 +1,37 @@
-// Здесь будут стили для Header
+/* Стили для Header */
+
+.header {
+    height: 100px;
+}
+
+.logotype {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
+    width: 216px;
+    height: 50.43px;
+    left: 153px;
+    top: 36px;
+    right: auto;
+}
+
+.headerbuttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 26px;
+    top: 26px;
+    position: fixed;
+    width: 410px;
+    height: 62px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(15px);
+    border-radius: 14px;
+    right: 0;
+    left: auto;
+    margin-right: 160px;
+    z-index: 3;
+}

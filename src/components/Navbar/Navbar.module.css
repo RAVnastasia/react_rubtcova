@@ -1,1 +1,63 @@
-// Здесь будут стили для Navbar
+/* Стили для Navbar */
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 36px;
+    width: 360px;
+    height: 27px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.button {
+    color: #2F2F2F;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.button2 {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #E92129;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.button3 {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #E92129;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.sub-menu {
+    color: #2F2F2F;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+nav .main-item .sub-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav .main-item:hover .sub-menu {
+    display: block;
+    margin-top: 2%;
+    position: left;
+}
